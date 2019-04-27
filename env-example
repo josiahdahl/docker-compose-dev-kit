@@ -1,0 +1,20 @@
+COMPOSE_PROJECT_NAME=docker-compose-dev-kit
+
+APP_CODE_PATH_HOST=../
+
+APP_CODE_PATH_CONTAINER=/var/www:cached
+
+###### Database
+
+MARIADB_DATABASE=
+MARIADB_USER=
+MARIADB_PASSWORD=secret
+MARIADB_ROOT_PASSWORD=root
+DB_PORT=3306
+
+
+###### nginx
+
+NGINX_HOST_LOG_PATH=./logs/nginx
+NGINX_SITES_PATH=./nginx/sites
+LOCAL_PORT=80
