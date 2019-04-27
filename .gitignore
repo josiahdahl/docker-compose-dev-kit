@@ -1,4 +1,4 @@
-db/*.sql
+db/**/*.sql
 logs/nginx/*
 .env
 .idea
